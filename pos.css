@@ -21,13 +21,19 @@ section {
 .wrapper {
 	max-width: 600px;
 	min-height: 300px;
+	margin: auto;
 }
 
 .row {
+	-ms-flex-direction: row-reverse ;
 	width: 100%;
 	min-width: 10px;
 	padding: 1rem 0;
 	min-height: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
 }
 
 
@@ -35,14 +41,17 @@ section {
 	min-width: 20px;
 	min-height: 70px;
 	margin: 10px;
+	flex-grow: 1;
 }
 
 .trolley-grey {
 	background: #7D7C84;
+	flex-grow: 1;
 }
 
 .sea-green {
 	background: #2D93AD;
+	flex-grow: 1;
 }
 
 .middle-red {
@@ -52,11 +61,12 @@ section {
 
 .black {
 	background: #000;
+	flex-grow: 1;
 }
 
 .orange {
 	background: orange;
-
+	flex-grow: 1;
 }
 
 .olive {
